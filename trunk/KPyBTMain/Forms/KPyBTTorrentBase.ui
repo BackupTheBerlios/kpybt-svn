@@ -1,0 +1,36 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>KPyBTTorrentBase</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>KPyBTTorrentBase</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>431</width>
+            <height>270</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Form1</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="KTabWidget" row="0" column="0">
+            <property name="name">
+                <cstring>tabTorrent</cstring>
+            </property>
+            <property name="currentPage">
+                <number>-1</number>
+            </property>
+        </widget>
+    </grid>
+</widget>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>ktabwidget.h</includehint>
+</includehints>
+</UI>

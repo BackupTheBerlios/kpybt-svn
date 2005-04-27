@@ -1,0 +1,22 @@
+<!DOCTYPE kpartgui SYSTEM "kpartgui.dtd">
+<kpartgui name="KPyBT" version="1">
+<MenuBar>
+    <Menu name="file"><text>&amp;File</text>
+        <Action name="fileOpenTorrent" />
+        <Action name="fileOpenTorrentDir" />
+        <Separator />
+        <Action name="fileExit" />
+    </Menu>
+    <Menu name="settings"><text>&amp;Settings</text>
+        <Action name="settingsConfigureApp"/>
+    </Menu>
+    <Menu name="torrents"><text>&amp;Torrents</text>
+        <Action name="browse_torrents"/>
+    </Menu>
+</MenuBar>
+<ToolBar name="mainToolBar">
+    <Action name="fileOpenTorrent"/>
+    <Action name="fileOpenTorrentDir"/>
+    <Merge/>
+</ToolBar>
+</kpartgui>

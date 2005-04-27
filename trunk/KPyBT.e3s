@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Session SYSTEM "Session-3.6.dtd">
+<!-- eric3 session file for project KPyBT -->
+<!-- This file was generated automatically, do not edit. -->
+<!-- Saved: 2005-04-27, 12:30:12 -->
+<Session version="3.6">
+  <Filenames>
+    <Filename cline="0" cindex="0">/home/shermann/kpybt/KPyBT.py</Filename>
+    <Filename cline="0" cindex="0">/home/shermann/kpybt/KPyBTMain/KPyBTWidgets/KPyBTCfgPageNetwork.py</Filename>
+    <Filename cline="0" cindex="0">/home/shermann/kpybt/KPyBTMain/KPyBTWidgets/KPyBTCfgPageGlobals.py</Filename>
+    <Filename cline="31" cindex="67">/home/shermann/kpybt/KPyBTMain/KPyBTMySettings.py</Filename>
+  </Filenames>
+  <ActiveWindow cline="31" cindex="67">/home/shermann/kpybt/KPyBTMain/KPyBTMySettings.py</ActiveWindow>
+  <Breakpoints>
+  </Breakpoints>
+  <DebugInfo>
+    <CommandLine></CommandLine>
+    <WorkingDirectory></WorkingDirectory>
+    <Environment></Environment>
+    <ReportExceptions value="1" />
+    <Exceptions>
+    </Exceptions>
+    <TracePython value="0" />
+    <CovexcPattern></CovexcPattern>
+  </DebugInfo>
+  <Bookmarks>
+  </Bookmarks>
+</Session>
