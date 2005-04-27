@@ -1,5 +1,5 @@
 MAKE=make
-SUBDIRS = Forms
+SUBDIRS = Forms KPyBTWidgets
 
 all: GenerateSource
 
@@ -7,4 +7,6 @@ GenerateSource: $(SUBDIRS)
 	cd $< ; make 
 
 clean: $(SUBDIRS)
-	cd $< ; make clean
+	rm -f *.pyc
+	for i in $(SUBDIRS) ; do cd $$i ; make $@ ; cd .. ; done
+
